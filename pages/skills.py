@@ -9,6 +9,6 @@ st.set_page_config(page_title="My Data Vault - Skills", page_icon="📞", layout
 
 Navbar()
 
-# Skills Page
+# Page Content
 st.title("🛠️ Skills & Technologies")
 st.markdown("A breakdown of my tech stack and proficiency.")

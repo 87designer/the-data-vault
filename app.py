@@ -1,5 +1,5 @@
-import streamlit as st
 import os
+import streamlit as st
 from modules.nav import Navbar
 
 
@@ -14,8 +14,7 @@ Navbar()
 
 # st.logo(HORIZONTAL_BLUE, icon_image=HORIZONTAL_WHITE)
 
-
-# Home Page
+# Page Content
 st.title("Welcome to My Data Vault 👋")
 st.write("\n")
 

@@ -7,6 +7,6 @@ st.set_page_config(page_title="My Data Vault - Experience", page_icon="📞", la
 
 Navbar()
 
-# Experience Page
+# Page Content
 st.title("💼 Experience")
 st.markdown("Here’s a timeline of my professional journey.")

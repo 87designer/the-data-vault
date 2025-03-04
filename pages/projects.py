@@ -7,6 +7,6 @@ st.set_page_config(page_title="My Data Vault - Projects", page_icon="📞", layo
 
 Navbar()
 
-# Projects Page
+# Page Content
 st.title("📂 Projects")
 st.markdown("A showcase of my work.")

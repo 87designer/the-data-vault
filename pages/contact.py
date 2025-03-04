@@ -7,6 +7,6 @@ st.set_page_config(page_title="My Data Vault - Contact", page_icon="📞", layou
 
 Navbar()
 
-# Contact Page
+# Page Content
 st.title("📞 Contact Me")
 st.markdown("Feel free to reach out!")
