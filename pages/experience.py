@@ -73,7 +73,8 @@ custom_colors = {
     "Database Admin / Analyst": "#FFB85F",  # Lighter Orange
     "Data Scientist": "#A6CEE3",  # Lighter Blue
     "Management Analyst": "#98DF8A",  # Lighter Green
-    "Data Analyst": "#98DF8A",  # Lighter Green
+    "Property Management Analyst": "#98DF8A",  # Lighter Green
+    "Digital Marketing Data Analyst": "#98DF8A",  # Lighter Green
 }
 
 fig =go.Figure(go.Sunburst(
