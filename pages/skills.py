@@ -20,7 +20,7 @@ skills = {
                                         "JupyterHub", "JupyterLab", "JupyterNotebook", "AzureDataStudio", "FeatureEngineering",
                                         "PDF-Scraping", "Web-Scraping", "Pandas", "Numpy", "Scikit-Learn", "Statsmodels", "SciPy", "XLSXWriter", "Selenium"],
     "Data Visualization": ["PowerBI", "LookerStudio", "QlikSense", "Plotly", "Dash", "Streamlit", "Matplotlib", "Seaborn"],
-    "Programming / Scripting": ["Python", "HTML", "CSS", "PostgreSQL", "MySQL", "Oracle", "NoSQL", "FastAPI", "REST-APIs", "GitHub"],
+    "Programming / Scripting": ["Python", "HTML", "CSS", "PostgreSQL", "MySQL", "Oracle", "NoSQL", "FastAPI", "REST-APIs", "CI/CD", "GitHub"],
     "Cloud Familiarity": ["AWS", "Azure", "GCP"],
     "Business & Productivity": ["Excel", "PowerAutomate", "Visio", "SharePoint"]
 }
