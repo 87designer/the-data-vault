@@ -54,7 +54,7 @@ labels = ["Data",
 parents = [
     "",  
     "Data", "Data", "Data", # Top-level nodes (Roles)
-    "Analysis", "Analysis", "Engineering", "Science",  # Job Titles under Roles
+    "Analysis", "Analysis", "Engineering", "Science", "Analysis"  # Job Titles under Roles
     ]
 
 # Define experience duration (years)
