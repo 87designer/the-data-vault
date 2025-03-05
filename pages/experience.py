@@ -47,7 +47,7 @@ col1.markdown("""#### Management Analyst | *2024 - Present*
 # Define hierarchy: Space → Roles → Job Titles →
 labels = ["Data",
           "Analysis", "Science", "Engineering",  # First Level: Roles
-          "Management Analyst", "Data Analyst", "Database Admin / Analyst", "Data Scientist",  # Second Level: Job Titles
+          "Property Management Analyst", "Digital Marketing Data Analyst", "Database Admin / Analyst", "Data Scientist", "Management Analyst"  # Second Level: Job Titles
           ]
 
 # Define parent-child relationships
@@ -61,7 +61,7 @@ parents = [
 values = [
     13, # Total Years
     8, 4, 1,  # Years in each role category
-    7, 1, 1, 4,  # Years in each job title
+    6, 1, 1, 4, 1,  # Years in each job title
     ]
 
 # Define custom colors
