@@ -51,11 +51,24 @@ col2.image("assets/images/The Data Vault - Placeholder banner.webp", width=400) 
 
 # Resume Download
 resume_path = "assets/resumes/CharlesGeorge_Resume-DG-20250304.pdf"
+
+@st.dialog("📄 Resume Downloaded")
+def resume_download():
+    st.success("✅ Resume has been downloaded successfully.")
+    st.write("If you encounter any issues, feel free to get in touch, or report an issue via GitHub.")
+    if st.button("Close"):
+        st.session_state.show_resume_dialog = False
+        st.rerun()
+
 if os.path.exists(resume_path):
     with open(resume_path, "rb") as resume_file:
         resume_bytes = resume_file.read()
-    col2.download_button("📄 Download My Resume", resume_bytes, file_name="CharlesGeorge-Resume.pdf", mime="application/pdf")
+    
+    if col2.download_button("📄 Download My Resume", resume_bytes, file_name="CharlesGeorge-Resume.pdf", mime="application/pdf"):
+        resume_download()  # Open the dialog on successful download
 
+else:
+    st.error("⚠️ Resume file not found. Please check back later.")
 
 st.markdown("---")
 st.markdown("💻 Built with Streamlit | 🚀 Hosted via GitHub & Streamlit Community Cloud")
