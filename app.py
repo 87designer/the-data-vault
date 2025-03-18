@@ -50,7 +50,7 @@ You can explore the full **development history, commits, and planned milestones*
 col2.image("assets/images/The Data Vault - Placeholder banner.webp", width=400)  # Placeholder image
 
 # Resume Download
-resume_path = "assets/resumes/CharlesGeorge_Resume-DG-20250304.pdf"
+resume_path = "assets/resumes/CharlesGeorge-ResumeAdvanced-20250317.pdf"
 
 @st.dialog("📄 Resume Downloaded")
 def resume_download():
